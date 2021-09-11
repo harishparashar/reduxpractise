@@ -40,18 +40,12 @@ this.props.history.push('/')
     return (
       <>
         <form>
-
           <lable>Name </lable>
           <input type="text" value={name} onChange={(e) => { this.setState({name:e.target.value}) }} />
-
           <lable>Email </lable>
           <input type="email" value={email} onChange={(e) => { this.setState({email:e.target.value}) }} />
-
           <lable>Contact Number </lable>
           <input type="number" value={phone} onChange={(e) => { this.setState({phone:e.target.value}) }} />
-
-
-
           <button type="submit" onClick={this.SubmitData}>Edit Data</button>
         </form>
       </>
