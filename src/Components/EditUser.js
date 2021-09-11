@@ -15,7 +15,6 @@ class EditUser extends Component {
 
   componentDidMount() {
     this.props.getuserDetails(this.props.match.params.id)
-    // console.log("id",this.props.match.params.id)
   }
 
   componentDidUpdate(prevProps, prevState) {
